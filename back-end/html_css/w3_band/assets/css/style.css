@@ -103,8 +103,8 @@ body, html{
 }
 
 #header .menu-btn:hover .menu-icon,
-#nav li:hover > a,
-#nav li:hover{
+#nav li:hover > a
+{
     background-color: #ccc; 
     color: #000; 
 }
@@ -274,7 +274,6 @@ body, html{
     width: 24px;
     background-color: #000;
     color: #fff;
-    border-radius: 50;
     border-radius: 50%;
     text-align: center;
     line-height: 22px;
