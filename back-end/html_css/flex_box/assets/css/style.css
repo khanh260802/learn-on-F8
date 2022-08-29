@@ -153,7 +153,8 @@ body{
     display: flex;
     justify-content: space-around;
     /* align-items: flex-end;  */
-}
+    
+} 
 .chart-layout__item{
     width:60px;
     color:#fff;
@@ -216,10 +217,9 @@ body{
 
     this mean: 
 
-    flex-grow: 1; 
+    flex-grow: 1;      hệ số Tỉ lệ width của cho mỗi item
     flex-shrink: 1; 
     flex-basis: 1; 
-
 */ 
 
 

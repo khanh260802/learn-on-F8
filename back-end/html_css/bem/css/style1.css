@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #ddd;
+}
+
+#toast {
+  position: fixed; 
+  top: 32px;
+  right: 32px;
+  z-index: 10;
+}
+
+.toast {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  border-left: solid 4px;
+  border-radius: 2px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+  /* animation: ; */
+  transition: all linear .5s;
+}
+
+@keyframes slideInLeft
+{
+  from{
+    opacity: 0;
+    transform: translateX(calc(100% + 32px)); 
+  }
+  to{
+    transform: translateX(0); 
+  }
+}
+
+
+@keyframes fadeOut
+{
+  to{
+    opacity: 0; 
+  }
+}
+.toast + .toast {
+  margin-top: 24px;
+}
+
+.toast__icon {
+  font-size: 15px;
+  padding: 0 16px;
+}
+
+.toast__icon .ti-check {
+  padding: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  color: white;
+  font-weight: 900;
+}
+
+.toast__body { 
+  flex-grow: 1;
+}
+
+.toast__title {
+
+}
+
+.toast__msg {
+
+}
+
+.toast__close {
+  font-size: 18px;
+  padding: 0 16px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+}
+
+.toast--success{
+  border-color: #40D35D;
+}
+
+.toast--info{
+  border-color: #2A7CE9;
+
+}
+
+.toast--warning{
+  border-color: #FEBE35;
+
+}
+
+.toast--success .toast__icon i{
+  background-color: #40D35D;
+}
+
+.toast--info .toast__icon i{
+  background-color: #2A7CE9;
+
+}
+
+.toast--warning .toast__icon i{
+  background-color: #FEBE35;
+}
+
+
+
+/* button */ 
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+}
+
+body{ 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+}
+
+body > div {
+  margin: auto; 
+}
+
+.btn {
+  display: inline-block; 
+  text-decoration: none; 
+  background-color: transparent; 
+  border: none; 
+  outline: none; 
+  color: #fff; 
+  padding: 12px 48px; 
+  border-radius: 50px;
+  cursor: pointer; 
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity:0.8; 
+}
+
+.btn + .btn{                            
+  /* margin-left: 16px;  */                       
+}
+
+.btn--success{
+  background-color: #71be34;    
+}
+
+.btn--warn{
+  background-color: #ffb702 ;    
+}
+
+.btn--danger{
+  background-color: #ff623d;     
+}
+
+.btn--disabled{
+  opacity: 0.5 !important; 
+  cursor: default; 
+}
+
+
+
+
+
+
+
+
