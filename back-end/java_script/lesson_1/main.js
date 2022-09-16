@@ -12,8 +12,8 @@ Giới thiệu một sô hàm built-in
     2. Console
     3. Confirm : show message, button cancel and ok
     4. Prompt : Alert and confirm and a input
-    5. Set timeout : chạy sau 1 khoảng thời gian(ms) (một lần)
-    6. Set interval: chạy sau 1 khoảng thời gian(ms) (vô hạn)
+    5. SetTimeout : chạy sau 1 khoảng thời gian(ms) (một lần)
+    6. SetInterval: chạy sau 1 khoảng thời gian(ms) (vô hạn)
 */
 
 /* 
