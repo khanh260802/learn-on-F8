@@ -49,13 +49,16 @@ var languages = 'Javascript'
 
 // 9. get a character by index 
 var myString2 = 'KhanhAn' 
-console.log(myString2.charAt(0))
+// console.log(myString2.charAt(0))
 // or 
-console.log(myString2[0])
+// console.log(myString2[0])
+var otherNumber = new Number(9) 
+var x  = 20 / 'abc' 
+isNaN(x) // kiểm tra số có hợp lệ không
 
-
-
-
+// to String xài như c++ 
+var PI = 3.5345345
+// console.log(PI.toFixed(2))
 
 
 
