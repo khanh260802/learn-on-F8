@@ -59,8 +59,16 @@ isNaN(x) // kiểm tra số có hợp lệ không
 // to String xài như c++ 
 var PI = 3.5345345
 // console.log(PI.toFixed(2))
+// console.log(typeof PI) 
+var languages = [
+    'Javascript', 
+    'PHP', 
+    'Ruby', 
+]
 
-
+Array.isArray()
+// console.log(Array.isArray(languages)) 
+// console.log(languages[0])
 
 
 
